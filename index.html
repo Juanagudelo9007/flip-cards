@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Tailwind Flip Cards</title>
+  </head>
+  <body>
+    <div class="flex max-6xl h-screen bg-slate-400">
+      <!--Container-->
+      <div
+        class="flex w-full h-full items-center justify-center bg-transparent group perspective gap-24"
+      >
+        <!--Card-1-->
+        <div
+          class="relative preserve-3d hover:rotate-y-180 w-80 h-96 duration-1000 cursor-pointer"
+        >
+          <!--Front-->
+          <div
+            class="absolute backface h-full w-full rounded-2xl shadow-xl shadow-black"
+          >
+            <img src="img/bg6.jpg" alt="" class="h-full w-full rounded-2xl" />
+          </div>
+          <!--Back-->
+          <div
+            class="absolute backface rotate-y-180 w-full h-full bg-slate-100 rounded-2xl shadow-xl shadow-black opacity-50"
+          >
+            <div
+              class="flex flex-col text-center gap-4 h-full justify-center items-center p-2"
+            >
+              <h1 class="text-xl font-extrabold mt-2">Jonh Wick</h1>
+              <p class="p-3">
+                John Wick, a retired hitman, seeks revenge after criminals kill
+                his dog, a final gift from his late wife. His return to the
+                criminal world sparks a series of violent confrontations as he
+                fights to avenge the loss of his pet.
+              </p>
+              <a
+                class="bg-slate-400 border-solid px-2 py-2 hover:bg-slate-600 text-slate-100 rounded-lg text-sm font-semibold absolute -bottom-10 delay-400 duration-200 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                href="https://www.primevideo.com/-/es/detail/John-Wick/0QSV36C6S10IZ3NOZILJ71VZ9C"
+                target="_blank"
+                >Watch Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--Card-2-->
+        <div
+          class="relative preserve-3d hover:rotate-y-180 w-80 h-96 duration-1000 cursor-pointer"
+        >
+          <!--Front-->
+          <div
+            class="absolute backface h-full w-full rounded-2xl shadow-xl shadow-black"
+          >
+            <img src="img/bg7.jpg" alt="" class="h-full w-full rounded-2xl" />
+          </div>
+          <!--Back-->
+          <div
+            class="absolute backface rotate-y-180 w-full h-full bg-slate-100 rounded-2xl shadow-xl shadow-black opacity-50"
+          >
+            <div
+              class="flex flex-col text-center gap-4 h-full justify-center items-center p-2"
+            >
+              <h1 class="text-xl font-extrabold mt-2">Avengers Endgame</h1>
+              <p class="p-3 text-sm">
+                follows the surviving Avengers as they travel back in time to
+                collect the Infinity Stones and undo Thanos' snap. In the final
+                battle, Iron Man sacrifices himself to defeat Thanos and restore
+                the universe. The film ends with Captain America passing on his
+                shield to Sam Wilson.
+              </p>
+              <a
+                class="bg-slate-400 border-solid px-2 py-2 hover:bg-slate-600 text-slate-100 rounded-lg text-sm font-semibold absolute -bottom-10 delay-400 duration-400 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                href="https://www.disneyplus.com/es-us/movies/avengers-endgame-de-marvel-studios/aRbVJUb2h2Rf"
+                target="_blank"
+                >Watch Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--Card-3-->
+        <div
+          class="relative preserve-3d hover:rotate-y-180 w-80 h-96 duration-1000 cursor-pointer"
+        >
+          <!--Front-->
+          <div
+            class="absolute backface h-full w-full rounded-2xl shadow-xl shadow-black"
+          >
+            <img src="img/bg9.jpg" alt="" class="h-full w-full rounded-2xl" />
+          </div>
+          <!--Back-->
+          <div
+            class="absolute backface rotate-y-180 w-full h-full bg-slate-100 rounded-2xl shadow-xl shadow-black opacity-50"
+          >
+            <div
+              class="flex flex-col text-center gap-4 h-full justify-center items-center p-2"
+            >
+              <h1 class="text-xl font-extrabold mt-2">The Help</h1>
+              <p class="p-3">
+                The Help is about an aspiring journalist who writes a book
+                documenting the stories of African American maids working in
+                white households in 1960s Mississippi. The film highlights
+                issues of racism, friendship, and courage as the maids expose
+                the harsh realities of their lives.
+              </p>
+              <a
+                class="bg-slate-400 border-solid px-2 py-2 hover:bg-slate-600 text-slate-100 rounded-lg text-sm font-semibold absolute -bottom-10 delay-400 duration-400 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                href="https://www.disneyplus.com/es-us"
+                target="_blank"
+                >Watch Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
